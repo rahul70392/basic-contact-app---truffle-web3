@@ -1,0 +1,49 @@
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/javascripts/index.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</html>
+
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+<form class="add form-inline">
+	<div class="form-group">
+		<input type="text" placeholder="index" class="form-control" id="index">
+	</div>
+	<div class="form-group">
+		<input type="text" placeholder="name" class="form-control" id="name">
+	</div>
+	<div class="form-group">
+		<input type="text" placeholder="mobile no." class="form-control" id="mobile">
+	</div>
+	<button type='button' class="btn btn-info" onclick="save()">Submit</button>
+</form>
+<form class="fetch form-inline">
+	<input type="text" placeholder="Index" class="form-control" id="indexOut">
+	</div>
+	<button type='button' class="btn btn-info" onclick="fetch()">Submit</button>
+</form>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Index</th>
+			<th>Name</th>
+			<th>Phone</th>
+		</tr>
+	</thead>
+	<tbody id='table'>
+	</tbody>
+</table>
+<span id="status"></span>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="/javascripts/index.js"></script>
+
+</html>

@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+form.add.form-inline {
+	margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+form.fetch.form-inline {
+	margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body{
+	margin: 50px;
+}
+
+button#save {
+    margin-left: 20px;
+}
+
+button#fetch {
+    margin-left: 20px;
+}
